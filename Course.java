@@ -1,5 +1,5 @@
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Course {
     private String courseName;
@@ -11,6 +11,10 @@ public class Course {
         this.students = new ArrayList<>();
     }
 
+    public String getCourseName() {
+        return courseName;
+    }
+
     public void assignTeacher(Teacher teacher) {
         this.teacher = teacher;
     }
@@ -19,8 +23,12 @@ public class Course {
         students.add(student);
     }
 
+    public void removeStudent(Student student) {
+        students.remove(student);
+    }
+
     @Override
     public String toString() {
-        return "Course{name='" + courseName + "', teacher=" + teacher + ", students=" + students + "}";
+        return "Course{name='" + courseName + "', teacher=" + teacher.getName() + ", students=" + students.size() + "}";
     }
 }
