@@ -20,9 +20,9 @@ public class Main {
 
         // Create teachers
 
-        Teacher teacher1 = new Teacher("Herra Smitti", "T001", "Matematiikka");
+        Teacher teacher1 = new Teacher("Herra Tero", "T001", "Matematiikka");
 
-        Teacher teacher2 = new Teacher("Rouva Johansson", "T002", "Tiede");
+        Teacher teacher2 = new Teacher("Rouva Jaana", "T002", "Fysiikka");
 
         school.addTeacher(teacher1);
 
@@ -42,7 +42,7 @@ public class Main {
 
 
 
-        Course scienceCourse = new Course("Tiede 101");
+        Course scienceCourse = new Course("Fysiikka 101");
 
         scienceCourse.assignTeacher(teacher2);
 
