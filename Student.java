@@ -31,6 +31,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{name='" + getName() + "', id='" + getId() + "', gradeLevel=" + gradeLevel + ", age=" + age + ", grades=" + grades + "}";
+        return "Oppilas{nimi='" + getName() + "', id='" + getId() + "', Luokka=" + gradeLevel + ", Ikä=" + age + ", Arvosanat=" + grades + "}";
     }
 }

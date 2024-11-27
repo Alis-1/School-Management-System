@@ -12,6 +12,6 @@ public class Teacher extends Person {
 
     @Override
     public String toString() {
-        return "Teacher{name='" + getName() + "', id='" + getId() + "', subject='" + subject + "'}";
+        return "Opettaja{nimi='" + getName() + "', id='" + getId() + "', aihe='" + subject + "'}";
     }
 }

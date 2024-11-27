@@ -44,7 +44,7 @@ public class School {
 
     // List all students
     public void listStudents() {
-        System.out.println("Students:");
+        System.out.println("Oppilaat:");
         for (Student student : students) {
             System.out.println(student);
         }
@@ -52,7 +52,7 @@ public class School {
 
     // List all teachers
     public void listTeachers() {
-        System.out.println("Teachers:");
+        System.out.println("Opettajat:");
         for (Teacher teacher : teachers) {
             System.out.println(teacher);
         }
@@ -60,7 +60,7 @@ public class School {
 
     // List all courses
     public void listCourses() {
-        System.out.println("Courses:");
+        System.out.println("Kurssit:");
         for (Course course : courses) {
             System.out.println(course);
         }

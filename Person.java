@@ -28,7 +28,7 @@ public class Person {
 
     public String toString() {
 
-        return "Person{name='" + name + "', id='" + id + "'}";
+        return "Henkilö{nimi='" + name + "', id='" + id + "'}";
 
     }
 

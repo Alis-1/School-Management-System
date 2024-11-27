@@ -29,6 +29,6 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{name='" + courseName + "', teacher=" + teacher.getName() + ", students=" + students.size() + "}";
+        return "Kurssi{nimi='" + courseName + "', Opettaja=" + teacher.getName() + ", Oppilaat=" + students.size() + "}";
     }
 }
