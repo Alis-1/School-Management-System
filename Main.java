@@ -8,9 +8,9 @@ public class Main {
 
         // Create students
 
-        Student student1 = new Student("Alice", "S001", 10);
+        Student student1 = new Student("Alisa", "S001", 10);
 
-        Student student2 = new Student("Bob", "S002", 12);
+        Student student2 = new Student("Markku", "S002", 12);
 
         school.addStudent(student1);
 
@@ -20,9 +20,9 @@ public class Main {
 
         // Create teachers
 
-        Teacher teacher1 = new Teacher("Mr. Smith", "T001", "Math");
+        Teacher teacher1 = new Teacher("Herra Smitti", "T001", "Matematiikka");
 
-        Teacher teacher2 = new Teacher("Ms. Johnson", "T002", "Science");
+        Teacher teacher2 = new Teacher("Rouva Johansson", "T002", "Tiede");
 
         school.addTeacher(teacher1);
 
@@ -32,7 +32,7 @@ public class Main {
 
         // Create courses
 
-        Course mathCourse = new Course("Math 101");
+        Course mathCourse = new Course("Matematiikka 101");
 
         mathCourse.assignTeacher(teacher1);
 
@@ -42,7 +42,7 @@ public class Main {
 
 
 
-        Course scienceCourse = new Course("Science 101");
+        Course scienceCourse = new Course("Tiede 101");
 
         scienceCourse.assignTeacher(teacher2);
 
