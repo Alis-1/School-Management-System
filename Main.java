@@ -8,9 +8,9 @@ public class Main {
 
         // Create students
 
-        Student student1 = new Student("Alisa", "S001", 10);
+        Student student1 = new Student("Alisa", "S001", 10, 10);
 
-        Student student2 = new Student("Markku", "S002", 12);
+        Student student2 = new Student("Markku", "S002", 12, 12);
 
         school.addStudent(student1);
 
@@ -20,9 +20,9 @@ public class Main {
 
         // Create teachers
 
-        Teacher teacher1 = new Teacher("Herra Tero", "T001", "Matematiikka");
+        Teacher teacher1 = new Teacher("Tero", "T001", "Matematiikka");
 
-        Teacher teacher2 = new Teacher("Rouva Jaana", "T002", "Fysiikka");
+        Teacher teacher2 = new Teacher("Jaana", "T002", "Fysiikka");
 
         school.addTeacher(teacher1);
 
